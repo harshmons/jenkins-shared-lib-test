@@ -1,6 +1,6 @@
-import com.enablement.devops.Helper
+import com.enablement.Helper
 
 def call(){
     println "Pipeline called"
-    logger()
+    Helper.logger()
 }
