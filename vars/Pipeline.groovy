@@ -2,5 +2,5 @@ import com.enablement.Helper
 
 def call(){
     println "Pipeline called"
-    Helper.logger()
+    Helper.logger("Custom message")
 }
